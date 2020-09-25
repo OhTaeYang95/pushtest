@@ -12,6 +12,17 @@
 </head>
 
 <body>
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "7f4702e1-e2d5-447a-82da-2662c79c5b6a",
+            });
+        });
+    </script>
+
     <span>Hello World!!</span>
 
     <script src="sw.js"></script>
