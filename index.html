@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "4059ac89-60ce-4d78-8d20-d2284d3991c6",
+            });
+        });
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
@@ -14,14 +24,7 @@
 <body>
 
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-        window.OneSignal = window.OneSignal || [];
-        OneSignal.push(function () {
-            OneSignal.init({
-                appId: "7f4702e1-e2d5-447a-82da-2662c79c5b6a",
-            });
-        });
-    </script>
+
 
     <span>Hello World!!</span>
 

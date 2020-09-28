@@ -2,7 +2,7 @@
 // && 'PushManager' in window
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        console.log('8');
+        console.log('9');
         navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/OneSignalSDKUpdaterWorker.js')
         navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/OneSignalSDKWorker.js')
         navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/service-worker.js')
