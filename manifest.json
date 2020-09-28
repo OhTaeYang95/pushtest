@@ -18,6 +18,6 @@
     "theme_color": "#B12A34",
     "background_color": "#FDFDFD",
     "start_url": "./",
-    "display": "fullscreen",
+    "display": "Fullscreen",
     "orientation": "portrait"
 }
