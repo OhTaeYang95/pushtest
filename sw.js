@@ -3,8 +3,6 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         console.log('16');
-        navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/OneSignalSDKUpdaterWorker.js')
-        navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/OneSignalSDKWorker.js')
         navigator.serviceWorker.register('https://ohtaeyang95.github.io/pushtest/service-worker.js')
 
             .then(function (success) {
